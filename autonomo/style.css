@@ -11,10 +11,15 @@
 
 h1 {
     margin: 10px;
+    color: rgb(224, 47, 136);
+}
+
+h2 {
+    margin: 10px;
 }
 
 .dati-email {
-    margin: 50px;
+    margin: 25px;
     font-size: 20px;
 }
 
@@ -30,4 +35,5 @@ h1 {
     border: solid;
     border-radius: 30px;
     border-width: 10px;
+    background-color: whitesmoke;
 }
