@@ -25,10 +25,25 @@ buttonBlock.addEventListener('click', function () {
 
             if (numero1 > numero2) {
                 console.log("Ha vinto il computer");
+
+                document.getElementById("computer").innerHTML = "Il valore del dado del computer è: " + numero1;
+                document.getElementById("utente").innerHTML = "Il valore del tuo dado è: " + numero2;
+                document.getElementById("esito").innerHTML = "Ha vinto il computer";
+
             } else if (numero1 < numero2) {
                 console.log("HAI VINTO!");
+
+                document.getElementById("computer").innerHTML = "Il valore del dado del computer è: " + numero1;
+                document.getElementById("utente").innerHTML = "Il valore del tuo dado è: " + numero2;
+                document.getElementById("esito").innerHTML = "HAI VINTO!";
+
             } else {
-                console.log("Siete in pareggio");
+                console.log("Avete pareggiato");
+
+                document.getElementById("computer").innerHTML = "Il valore del dado del computer è: " + numero1;
+                document.getElementById("utente").innerHTML = "Il valore del tuo dado è: " + numero2;
+                document.getElementById("esito").innerHTML = "Avete pareggiato";
+
             };
         })
 
@@ -52,10 +67,25 @@ buttonBlock.addEventListener('click', function () {
 
                     if (numero1 > numero2) {
                         console.log("Ha vinto il computer");
+
+                        document.getElementById("computer").innerHTML = "Il valore del dado del computer è: " + numero1;
+                        document.getElementById("utente").innerHTML = "Il valore del tuo dado è: " + numero2;
+                        document.getElementById("esito").innerHTML = "Ha vinto il computer";
+
                     } else if (numero1 < numero2) {
                         console.log("HAI VINTO!");
+
+                        document.getElementById("computer").innerHTML = "Il valore del dado del computer è: " + numero1;
+                        document.getElementById("utente").innerHTML = "Il valore del tuo dado è: " + numero2;
+                        document.getElementById("esito").innerHTML = "HAI VINTO!";
+
                     } else {
-                        console.log("Siete in pareggio");
+                        console.log("Avete pareggiato");
+
+                        document.getElementById("computer").innerHTML = "Il valore del dado del computer è: " + numero1;
+                        document.getElementById("utente").innerHTML = "Il valore del tuo dado è: " + numero2;
+                        document.getElementById("esito").innerHTML = "Avete pareggiato";
+
                     };
                 })
 
