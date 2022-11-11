@@ -26,3 +26,17 @@ if (flag){
             console.log("Input non riconosciuto");
     };
 };
+
+let numero1 = Math.floor(Math.random() * (6-1) ) + 1;
+let numero2 = Math.floor(Math.random() * (6-1) ) + 1;
+
+console.log("Il valore del dado del computer è: " + numero1);
+console.log("Il valore del tuo dado è: " + numero2);
+
+if (numero1 > numero2){
+    console.log("Ha vinto il computer");
+} else if (numero1 < numero2){
+    console.log("HAI VINTO!");
+}else {
+    console.log("Siete in pareggio");
+};
