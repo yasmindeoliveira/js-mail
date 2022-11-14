@@ -44,8 +44,8 @@ buttonBlock.addEventListener('click', function () {
 
                 let button = document.getElementById("button");
                 button.addEventListener('click', function () {
-                    let numero1 = Math.floor(Math.random() * (6 - 1)) + 1;
-                    let numero2 = Math.floor(Math.random() * (6 - 1)) + 1;
+                    let numero1 = Math.floor(Math.random() * (6 - 1 + 1)) + 1;
+                    let numero2 = Math.floor(Math.random() * (6 - 1 + 1)) + 1;
 
                     console.log("Il valore del dado del computer è: " + numero1);
                     console.log("Il valore del tuo dado è: " + numero2);
